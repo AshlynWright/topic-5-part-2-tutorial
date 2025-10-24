@@ -1,4 +1,6 @@
-﻿namespace topic_5_part_2_tutorial
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace topic_5_part_2_tutorial
 {
     internal class Program
     {
@@ -57,25 +59,53 @@
             //    Console.WriteLine("That is a A!");
 
 
-            Console.WriteLine("what is 4 + 4?");
-             
-            
-            if (Console.ReadLine() == "A")
-            {
-                Console.WriteLine("Correct!");
-            }
-            else if (Console.ReadLine() == "B")
-            {
-                Console.WriteLine("wrong!");
-            }
-            else if (Console.ReadLine() == "C")
-            {
-                Console.WriteLine("wrong!");
-            }
-            else if (Console.ReadLine() == "D")
-            {
-                Console.WriteLine("wrong!");
-            }
+
+
+            //string choice;
+            //Console.WriteLine("what is 4 + 4?");
+            //Console.WriteLine("A - 8      B - 4");
+            //Console.WriteLine("C - 9      D - 7");
+            //Console.WriteLine();
+            //Console.Write("=");
+            //choice = Console.ReadLine().ToUpper();  
+            //Console.WriteLine();
+
+            //if (choice == "A")
+            //{
+            //    Console.WriteLine("Correct!");
+            //}
+            //if (choice == "B")
+            //{
+            //    Console.WriteLine("Wrong!");
+            //}
+            //if (choice == "C")
+            //{
+            //    Console.WriteLine("Wrong!");
+            //}
+            //if (choice == "D")
+            //{
+            //    Console.WriteLine("Wrong!");
+            //}
+           
+
+
+
+            //int temp;
+            //Console.WriteLine("Enter the temperature of the H2O: ");
+            //if (int.TryParse(Console.ReadLine(), out temp))
+            //{
+            //    if (temp <= 0)
+            //        Console.WriteLine("You have a solid!");
+            //    else if (temp < 100)
+            //        Console.WriteLine("You have liquid!");
+            //    else
+            //        Console.WriteLine("You have gas!");
+            //}
+
+
+
+
+
 
 
 
@@ -98,5 +128,13 @@
 
 
         }
+
+
+
+
+
+
+
     }
 }
+
